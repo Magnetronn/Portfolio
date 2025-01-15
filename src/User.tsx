@@ -14,7 +14,7 @@ const ProjectInfo = [
         image: "DreamJob.png",
         live: true,
         technologies: ["React", "SpringBoot", "MongoDb",],
-        link: "https://github.com/Magnetronn/Job-Portal-App",
+        link: "https://job-portal-app-two-eta.vercel.app/",
         github: "https://github.com/Magnetronn/Job-Portal-App"
     },
     {
