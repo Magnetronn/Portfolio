@@ -18,6 +18,15 @@ const ProjectInfo = [
         github: "https://github.com/Magnetronn/Job-Portal-App"
     },
     {
+        title: "Glamora – Beauty App",
+        desc: "Developed a responsive and user-friendly beauty services web application allowing users to explore various beauty services, view portfolios, and make bookings. Designed to enhance the client experience by showcasing professional makeup, hair styling, and skincare services.",
+        image: "BeautyApp.png",
+        live: true,
+        technologies: ["React", "javascript", "Node.js",],
+        link: "https://aesthetic-palace.onrender.com/",
+        github: "https://github.com/Magnetronn/Beauty-App"
+    },
+    {
         title: "Smart Contact Manager",
         desc: " Developed the Smart Contact Manager, a web application designed to efficiently manage and organize contact information. The application provides a user-friendly interface for adding, updating, deleting, and searching contacts, with a focus on seamless interaction and data management.",
         image: "SmartContact.png",
@@ -55,7 +64,7 @@ const SkillInfo = [
     },
     {
         title: "Backend",
-        skills: ["Springboot","MySQL", "MongoDB","java","PostgresSQL"]
+        skills: ["Springboot","Microservices","MySQL", "MongoDB","java","PostgresSQL"]
     },
     {
         title: "Languages",
@@ -63,7 +72,7 @@ const SkillInfo = [
     },
     {
         title: "Tools",
-        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Spring Tool Suite"]
+        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Spring Tool Suite","Docker"]
     }
 ]
 const socialLinks = [
@@ -77,9 +86,16 @@ const socialLinks = [
 
 const ExperienceInfo = [
     {
+        role: "Senior System Engineer",
+        company: "Infosys",
+        date: "Jan 2025 - Present",
+        desc: " Experienced Backend Developer with a strong focus on designing scalable microservices and implementing multitenancy architecture to support multiple clients efficiently. Proficient in developing robust RESTful APIs using Spring Boot and managing containerized applications through Kubernetes, including deployment, configuration, and troubleshooting. Adept at identifying and remediating security vulnerabilities through tools like SAST, DAST, and BlackDuck. Demonstrated success in contributing to agile teams and delivering high-quality solutions in fast-paced environments.",
+        skills: ["Core-Java", "postgres", "Springboot","Microservices", "ReactJs","Docker","kubernetes"]
+    },
+    {
         role: "System Engineer",
         company: "Infosys",
-        date: "Nov 2022 - Present",
+        date: "Nov 2022 - Dec 2024",
         desc: " I led software development with java, Spring Boot, PostgresSQL and MySQL to design and implement dynamic web applications. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
         skills: ["Java", "MySQL", "Springboot", "ReactJs", "Git", "PostgresSQL","Docker","python"]
     }
